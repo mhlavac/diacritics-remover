@@ -11,7 +11,7 @@ removes diacritics from strings
 $original = 'Čokl běžel po džemu'
 
 $remover = new DiacriticsRemover()
-$output = $remover->parse('')
+$output = $remover->parse($original);
 
 echo $output; // Cokl bezel po dzemu
 ```
