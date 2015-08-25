@@ -1,0 +1,34 @@
+{
+    "name": "mhlavac/DiacriticsRemover",
+    "type": "library",
+    "description": "Diacritics Remover",
+    "keywords": [
+        "diacritics",
+        "remover",
+        "string",
+        "helper"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Hlavac",
+            "email": "info@mhlavac.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MHlavac\\DiacriticsRemover\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-master"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    }
+}
