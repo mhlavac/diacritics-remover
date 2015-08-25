@@ -18,4 +18,4 @@ echo $output; // Cokl bezel po dzemu
 
 ## Installation
 
-via composer: `composer require mhlavac/DiacriticsRemover`
+via composer: `composer require mhlavac/diacritics-remover`
