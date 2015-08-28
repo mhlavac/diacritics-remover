@@ -21,8 +21,8 @@ class DiacriticsRemoverTest extends \PHPUnit_Framework_TestCase
     {
         return [
             ['Martin Hlavac', 'Martin Hlaváč'],
-            ['AAAAAAAECEEEEIIIINOOOOOxUUUUYssaaaaaeaaeceeeeiiiinoooooeuuuueyy', 'ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ'],
-            ['aeAeoeOueUss', 'äÄéöÖüÜß'],
+            ['AAAAAeAaAeCEEEEIIIIDNOOOOOexOeUUUUeYTHssaaaaaeaaaeceeeeiiiidnoooooeoeuuuueythy', 'ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ'],
+            ['aeAeeoeOeueUess', 'äÄéöÖüÜß'],
         ];
     }
 }
