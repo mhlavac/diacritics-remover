@@ -1,7 +1,7 @@
 Diacritics Remover
 ==================
 
-[![Build Status](https://travis-ci.org/mhlavac/DiacriticsRemover.svg)](https://travis-ci.org/mhlavac/DiacriticsRemover)
+[![Build Status](https://travis-ci.org/mhlavac/diacritics-remover.svg)](https://travis-ci.org/mhlavac/diacritics-remover)
 
 removes diacritics from strings
 
